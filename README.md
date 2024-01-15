@@ -8,7 +8,7 @@ Contains implementations of FedAvg [1], GLFC [2], FedAvg+WA [3], FedAvg+ICARL [4
 
 -------
 ## Contributions
-- We propose FedCLASS, a novel FCIL method that mitigates catastrophic forgetting by harmonizing new class scores with the outputs of historical models during selfdistillation.
+- We propose FedCLASS, a novel FCIL method that mitigates catastrophic forgetting by harmonizing new class scores with the outputs of historical models during self-distillation.
 - We provide theoretical analyses for FedCLASS that conform to the soundness of FedCLASS’s design. **To our best knowledge, FedCLASS is the first federated class-incremental learning method with theoretical support.**
 - We conduct extensive empirical experiments on four datasets with two class-incremental settings. Results demonstrate that FedCLASS substantially reduces the average forgetting rate and markedly enhances global accuracy compared with state-of-the-art methods.
 
