@@ -1,0 +1,40 @@
+{
+    "prefix": "test",
+    "dataset": "svhn",
+    "model_name": "wa",
+    "convnet_type": "resnet8",
+    "pretrain": false,
+    "device": ["0"],
+    "seed": 2023,
+    "dirichlet_alpha": 0.5,
+    "dataset_partition": 10,
+    "fed_algo": "fedavg",
+
+    "usewdb": false,
+
+    "fixed_memory": false,
+    "memory_size_per_class": 2,
+    "memory_size": 20,
+    "shuffle": true,
+
+    "init_cls": 5,
+    "increment": 5,
+    
+    "epoches": 2,
+    "lr": 0.01,
+    "momentum": 0.9,
+    "lr_decay": 0.1,
+    "weight_decay": 1e-5,
+
+    "batch_size": 32,
+    "num_workers": 8,
+    "total_clients": 3,
+    "select_clientnum": 3,
+    "local_classnum_per_task_init": 5,
+    "local_classnum_per_task": 5,
+    "aggregation_round_per_task": 2,
+
+    "temperature_old": 5,
+    "temperature_new": 3,
+    "alpha": 5
+}
