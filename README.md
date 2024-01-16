@@ -2,7 +2,7 @@
 
 This repository is a Pytorch implementation of **FedCLASS**:
 
-[**Federated Class-Incremental Learning with New-Class Augmented Self-Distillation**.](https://arxiv.org/abs/2312.11489) *arXiv preprint arXiv:2401.00622*. 2024.
+[**Federated Class-Incremental Learning with New-Class Augmented Self-Distillation**.](https://arxiv.org/abs/2401.00622) *arXiv preprint arXiv:2401.00622*. 2024.
 
 Contains implementations of FedAvg [1], GLFC [2], FedAvg+WA [3], FedAvg+ICARL [4] as described in the paper.
 
